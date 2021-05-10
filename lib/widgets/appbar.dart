@@ -16,7 +16,7 @@ class CustomAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color:
-          Colors.black.withOpacity(scrollOffset / 350.clamp(0, 1).toDouble()),
+          Colors.red.withOpacity(scrollOffset / 350),
       padding: EdgeInsets.fromLTRB(24, 10, 24, 10),
       child: SafeArea(
         child: Row(
